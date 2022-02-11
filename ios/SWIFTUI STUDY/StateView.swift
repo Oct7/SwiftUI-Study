@@ -7,24 +7,72 @@
 
 import SwiftUI
 
+
+
+class ObsObject1: ObservableObject {
+    @Published var value: Int = 0
+    init() {
+        print("ObservedObject init")
+    }
+    func plus() {
+        value += 1
+    }
+}
+
+class ObsObject2: ObservableObject {
+    @Published var value: Int = 0
+    init() {
+        print("StateObject init")
+    }
+    func plus() {
+        value += 1
+    }
+}
+
+
 struct StateView: View {
     // @State 예제 변수
     @State private var state = 0
+    // @ObservedObject 예제 변수
+    @ObservedObject  var observedObject = ObsObject1()
+    // @StateObject 예제 변수
+    @StateObject  var stateObject = ObsObject2()
+    
     var body: some View {
         VStack{
+            
             // @State 예제
-            Text("State : " + String(state))
-            Button("State value++") {
-                state+=1
+            Group{
+                Text("State : " + String(state))
+                Button("State value++") {
+                    state+=1
+                }
             }
             
             Spacer().frame(height:20)
             
             // @Binding 예제
-            Text("Binding Navigation")
-            NavigationLink(destination: StateCheckNavigationView(childState: $state)) {Text("Binding Navigation")
-                
-                
+            Group{
+                Text("Navigation for checking changes")
+                NavigationLink(destination: StateCheckNavigationView(childState: $state, observedObject:observedObject, stateObject: stateObject)) {Text("Navigation")} }
+            
+            Spacer().frame(height:20)
+            
+            // @ObservedObject 예제
+            Group{
+                Text("ObservedObject : " + String(observedObject.value))
+                Button("ObservedObject value++"){
+                    observedObject.value+=1
+                }}
+            
+            Spacer()
+                .frame(height: 20.0)
+            
+            // @StateObject 예제
+            Group{
+                Text("StateObject : " + String(stateObject.value))
+                Button("StateObject value++"){
+                    stateObject.value+=1}
             }
         }
     }
