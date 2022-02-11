@@ -9,9 +9,6 @@ import SwiftUI
 
 
 struct ContentView: View {
-    //    init(){
-    //           UITableView.appearance().backgroundColor = .clear
-    //       }
     var body: some View {
         NavigationView {
             VStack{

@@ -14,6 +14,7 @@
 		2552C74E27AA996C009F9E87 /* SWIFTUI_STUDYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552C74D27AA996C009F9E87 /* SWIFTUI_STUDYTests.swift */; };
 		2552C75827AA996C009F9E87 /* SWIFTUI_STUDYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552C75727AA996C009F9E87 /* SWIFTUI_STUDYUITests.swift */; };
 		2552C75A27AA996C009F9E87 /* SWIFTUI_STUDYUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552C75927AA996C009F9E87 /* SWIFTUI_STUDYUITestsLaunchTests.swift */; };
+		2573703927B5FCEB00A29198 /* StateCheckNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2573703827B5FCEB00A29198 /* StateCheckNavigationView.swift */; };
 		257DEF4327B0F007007396DE /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257DEF4227B0F007007396DE /* StateView.swift */; };
 		423B63D6ED394C9650C58B15 /* Pods_SWIFTUI_STUDY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2508DE9E88DC27448681628 /* Pods_SWIFTUI_STUDY.framework */; };
 		5F323D0DEF9B2E1C9CFBA0F1 /* Pods_SWIFTUI_STUDYTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F350DD12BB810CE9D94FFF4 /* Pods_SWIFTUI_STUDYTests.framework */; };
@@ -48,6 +49,7 @@
 		2552C75327AA996C009F9E87 /* SWIFTUI STUDYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWIFTUI STUDYUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2552C75727AA996C009F9E87 /* SWIFTUI_STUDYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFTUI_STUDYUITests.swift; sourceTree = "<group>"; };
 		2552C75927AA996C009F9E87 /* SWIFTUI_STUDYUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFTUI_STUDYUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2573703827B5FCEB00A29198 /* StateCheckNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateCheckNavigationView.swift; sourceTree = "<group>"; };
 		257DEF4227B0F007007396DE /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		334E2DB22D4A439150660C3D /* Pods-SWIFTUI STUDYTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI STUDYTests.debug.xcconfig"; path = "Target Support Files/Pods-SWIFTUI STUDYTests/Pods-SWIFTUI STUDYTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4813F4CCBCE568D6107511DA /* Pods-SWIFTUI STUDY-SWIFTUI STUDYUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI STUDY-SWIFTUI STUDYUITests.debug.xcconfig"; path = "Target Support Files/Pods-SWIFTUI STUDY-SWIFTUI STUDYUITests/Pods-SWIFTUI STUDY-SWIFTUI STUDYUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				2552C73C27AA996B009F9E87 /* SWIFTUI_STUDYApp.swift */,
 				2552C73E27AA996B009F9E87 /* ContentView.swift */,
 				257DEF4227B0F007007396DE /* StateView.swift */,
+				2573703827B5FCEB00A29198 /* StateCheckNavigationView.swift */,
 				2552C74027AA996C009F9E87 /* Assets.xcassets */,
 				2552C74227AA996C009F9E87 /* Preview Content */,
 			);
@@ -411,6 +414,7 @@
 				257DEF4327B0F007007396DE /* StateView.swift in Sources */,
 				2552C73F27AA996B009F9E87 /* ContentView.swift in Sources */,
 				2552C73D27AA996B009F9E87 /* SWIFTUI_STUDYApp.swift in Sources */,
+				2573703927B5FCEB00A29198 /* StateCheckNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

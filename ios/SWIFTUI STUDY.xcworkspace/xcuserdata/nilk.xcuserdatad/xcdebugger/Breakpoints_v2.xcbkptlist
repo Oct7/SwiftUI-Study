@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "957F213D-AF8B-4A0B-B003-D6F07D2CE08E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBEF6D4F-F94A-43C0-A0E6-323ED848B0B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SWIFTUI STUDY/StateCheckNavigationView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "StateCheckNavigationView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "CBEF6D4F-F94A-43C0-A0E6-323ED848B0B0 - febeb98b62818ac5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SWIFTUI_STUDY.StateCheckNavigationView.childState.getter : Swift.Int"
+                  moduleName = "SWIFTUI_STUDY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nilk/dev/SwiftUI-Study/ios/SWIFTUI%20STUDY/StateCheckNavigationView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "CBEF6D4F-F94A-43C0-A0E6-323ED848B0B0 - 1d1da10cbef61f39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SWIFTUI_STUDY.StateCheckNavigationView.childState.setter : Swift.Int"
+                  moduleName = "SWIFTUI_STUDY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nilk/dev/SwiftUI-Study/ios/SWIFTUI%20STUDY/StateCheckNavigationView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "CBEF6D4F-F94A-43C0-A0E6-323ED848B0B0 - c2211b1579e5a2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SWIFTUI_STUDY.StateCheckNavigationView.childState.modify : Swift.Int"
+                  moduleName = "SWIFTUI_STUDY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nilk/dev/SwiftUI-Study/ios/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "CBEF6D4F-F94A-43C0-A0E6-323ED848B0B0 - 332a3102ea6747a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SWIFTUI_STUDY.StateCheckNavigationView.childState.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SWIFTUI_STUDY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nilk/dev/SwiftUI-Study/ios/SWIFTUI%20STUDY/StateCheckNavigationView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "CBEF6D4F-F94A-43C0-A0E6-323ED848B0B0 - e303d96c89c99571"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SWIFTUI_STUDY.StateCheckNavigationView.$childState.getter : SwiftUI.Binding&lt;Swift.Int&gt;"
+                  moduleName = "SWIFTUI_STUDY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nilk/dev/SwiftUI-Study/ios/SWIFTUI%20STUDY/StateCheckNavigationView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
