@@ -9,6 +9,7 @@ import SwiftUI
 
 class ObsObject1: ObservableObject {
     @Published var value: Int = 0
+    
 }
 
 class ObsObject2: ObservableObject {
@@ -24,6 +25,8 @@ struct StateView: View {
     // @StateObject 예제 변수
     @StateObject  var stateObject = ObsObject2()
     // @StateObject&@ObservedObject 비교 예제 변수
+    
+    
     
     var body: some View {
         VStack{
@@ -58,8 +61,14 @@ struct StateView: View {
                 Button("StateObject value++"){
                     stateObject.value+=1}
             }
+            Spacer().frame(height:20)
+            
+            // @EnvironmentObject 예제
+        
+         
         }
-    }}
+    }
+}
 struct StateView_Previews: PreviewProvider {
     static var previews: some View {
         StateView()

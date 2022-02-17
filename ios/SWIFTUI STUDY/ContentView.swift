@@ -19,7 +19,7 @@ struct ContentView: View {
                     Text("다음은 뭐가 있을까?")
                 }
             }
-        }
+        }.environmentObject(ObsObject1())
     }
 }
 

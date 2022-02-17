@@ -18,7 +18,8 @@ struct StateCheckNavigationView: View {
     @StateObject  var stateObject:ObsObject2
     // @ObservedObject vs @StateObject 예제 변수
     @StateObject  var check_stateObject = ObsObject2()
-
+    
+    @EnvironmentObject var environmentObject: ObsObject1
     
     var body: some View {
         
@@ -39,6 +40,16 @@ struct StateCheckNavigationView: View {
             stateObject.value+=1
         }
         
+        
+        // @EnvironmentObject 예제
+        Text("EnvironmentObject value : "+String(environmentObject.value))
+        Button("EnvironmentObject value++") {
+            environmentObject.value+=1
+        }
+        
+        
+        
+        
         // @StateObject VS @ObservedObject 변화 확인
         Spacer()
             .frame(height: 40.0)
@@ -55,7 +66,7 @@ struct StateCheckNavigationView: View {
             
         }
         
-      
+        
     }
 }
 
